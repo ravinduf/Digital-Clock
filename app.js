@@ -1,5 +1,5 @@
 
-function clock(){
+const clock = () =>{
     const fullDate = new Date();
     let hours = fullDate.getHours();
     let mins = fullDate.getMinutes();
